@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Redis-related
+dump.rdb
+*.aof
+redis.conf
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+pids/
+*.pid
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore coverage reports
+coverage/
+
+# Ignore build files
+dist/
+build/
